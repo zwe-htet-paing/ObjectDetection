@@ -1,0 +1,38 @@
+# Real-Time Object Detection
+
+1. You only look once (YOLO)
+2. OpenCV
+
+# How YOLO works?
+
+- Traditionally, R-CNN family of algorithms uses regions to localise the object in images
+	- High scoring regions of the image are considered as object detected
+	
+- YOLO follows a completely different approach. It applies a neural network to the entire image to 	 predict bounding boxes and their probabilities
+	- High probabilities of the image are considered as object detected
+	
+# What YOLO can detect?
+
+ Yolo can be applied to
+ 	1. Image file
+ 	2. Webcam Feed
+ 	3. Video File
+ 	
+ Pre-trained YOLOv3 can detect 80 objects, such as:
+ 	1. Person
+ 	2. Bicycle
+ 	3. Car
+ 	
+# How to install YOLO?
+
+- Transfer Learning
+	A technique to reuse the weights in one or more layers from a pre-trained network model 		in a new model by
+		- keeping the weights
+		- fine tuning the weights
+		- adapting the weights entirely when training a new model
+
+# Requirements		
+ 1. Download weight file of YOLO
+ 2. Download configuration file of YOLO
+ 3. Download name file - coco
+ 4. Install OpenCV 3.4.2 or above
