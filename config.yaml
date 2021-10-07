@@ -1,0 +1,10 @@
+img_path: data/images/test_image.jpeg
+
+video_path: data/videos/VID_20200216_214950.mp4
+
+yolo:
+  weight_path: models/yolov3.weights
+  cfg_path: models/yolov3.cfg
+  class_path: models/coco.names
+
+output_path: output/
